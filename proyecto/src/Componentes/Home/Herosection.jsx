@@ -32,33 +32,6 @@ function HeroSection() {
                     habilidades y conocimientos. Mi pasión por la programación y mi dedicación al trabajo me impulsan 
                     a superar desafíos y alcanzar la excelencia en cada proyecto que emprendo.
                 </p>
-
-
-
-                <section id="projects">
-                <h2>Proyectos</h2>
-                <div className="content-list">
-                    <div className="content-card">
-                        <h3>Proyecto 1</h3>
-                        <p>
-                            Desarollando una pagina Web de Personalizacion y Tuneo de Coches llamada "SJCUSTOMS"
-                            <br />
-                            <a href="https://ec-sebastian-juan-coca.vercel.app/" target="_blank" rel="noopener noreferrer">Entrar en la Pagina del Proyecto</a>
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-
-
-
-
-
-
-
-
-
-                
             </div>
            
                 
