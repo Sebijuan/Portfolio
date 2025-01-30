@@ -1,13 +1,14 @@
 import React from 'react';
 import '../Estilos/paginaprincipal.css';
 import { useNavigate } from 'react-router-dom';
+
 const Navbar = () => {
     const navigate = useNavigate();
 
     const handleHomeClick = (event) => {
         event.preventDefault();
         navigate('/');
-      };
+    };
 
     const handleAboutClick = (event) => {
         event.preventDefault();
@@ -29,9 +30,9 @@ const Navbar = () => {
         window.location.href = '/login-page';
     };
 
-    const handleRegisterClick = (event) => {
+    const handleHabilidadesClick = (event) => {
         event.preventDefault();
-        window.location.href = '/register-page';
+        window.location.href = '/habilidades';
     };
 
     const handleAemetClick = (event) => {
@@ -41,14 +42,13 @@ const Navbar = () => {
 
     return (
         <nav className="navbar navbar-visible">
-           
             <ul>
-            <li><a href="#home" onClick={handleHomeClick} className="navbar-link">Inicio</a></li>
+                <li><a href="#home" onClick={handleHomeClick} className="navbar-link">Inicio</a></li>
                 <li><a href="/sobremi" onClick={handleAboutClick} className="navbar-link">Sobre Mi</a></li>
                 <li><a href="/proyectos" onClick={handleProyectosClick} className="navbar-link">Proyectos</a></li>
                 <li><a href="/contacto" onClick={handleContactClick} className="navbar-link">Contacto</a></li>
                 <li><a href="/blog" onClick={handleLoginClick} className="navbar-link">Blog</a></li>
-                <li><a href="/habilidades" onClick={handleRegisterClick} className="navbar-link">Habilidades</a></li>
+                <li><a href="/habilidades" onClick={handleHabilidadesClick} className="navbar-link">Habilidades</a></li>
             </ul>
         </nav>
     );

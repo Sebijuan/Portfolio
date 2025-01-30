@@ -1,0 +1,59 @@
+#skills {
+    background-color: #000;
+    color: #ff0000; /* Red text */
+    padding: 20px; /* Add padding for better spacing */
+    margin: 0; /* Remove margin to ensure elements are closely packed */
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#skills h2 {
+    color: #ff0000; /* Red text */
+}
+
+#skills p {
+    color: #ff0000; /* Red text */
+}
+
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-card {
+    background-color: #333;
+    color: #ff0000; /* Red text */
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.content-card h3 {
+    margin-top: 0;
+    color: #ff0000; /* Red text */
+}
+
+.content-card p {
+    color: #ff0000; /* Red text */
+}
+
+.content-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content-card ul li {
+    margin: 5px 0;
+}
+
+.skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}

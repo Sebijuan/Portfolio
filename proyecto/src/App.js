@@ -5,6 +5,7 @@ import Navbar from './Componentes/Layout/navbar'; // Import Navbar
 import Footer from './Componentes/Layout/footer'; // Import Footer
 import HeroSection from './Componentes/Home/Herosection'; // Import HeroSection
 import Proyectos from './Componentes/Home/Proyectos'; // Import Proyectos
+import Habilidades from './Componentes/Home/Habilidades'; // Import Habiliades
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             }
           />
           <Route path="/proyectos" element={<Proyectos />} />
+          <Route path="/habilidades" element={<Habilidades />} />
         </Routes>
         <Footer />
       </div>
