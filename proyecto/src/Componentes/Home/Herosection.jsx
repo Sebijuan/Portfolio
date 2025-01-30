@@ -40,8 +40,10 @@ function HeroSection() {
                 <div className="content-list">
                     <div className="content-card">
                         <h3>Proyecto 1</h3>
-                        <p>Desarollando una pagina Web de Personalizacion y Tuneo de Coches
-                           llamada "SJCUSTOMS"
+                        <p>
+                            Desarollando una pagina Web de Personalizacion y Tuneo de Coches llamada "SJCUSTOMS"
+                            <br />
+                            <a href="https://ec-sebastian-juan-coca.vercel.app/" target="_blank" rel="noopener noreferrer">Entrar en la Pagina del Proyecto</a>
                         </p>
                     </div>
                 </div>
