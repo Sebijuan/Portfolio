@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000, #ff0000); /* Gradient background from black to red */
+    color: #ff0000; /* Red text */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    color: #ff0000; /* Red text */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #000; /* Black background */
+    width: 100%;
+}
+
+nav a {
+    color: #ff0000; /* Red text */
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #333; /* Darker background on hover */
+}
+
+section {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #000;
+    color: #ff0000; /* Red text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.inicio {
+    background-color: #333;
+    color: #ff0000; /* Red text */
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.inicio h2 {
+    color: #ff0000; /* Red text */
+}
+
+.inicio p {
+    color: #ff0000; /* Red text */
+}
+
+.inicio-container {
+    flex: 1; /* Fill remaining space */
+    padding: 0; /* Remove padding to ensure elements are closely packed */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 40px); /* Ensure it fills the remaining space */
+    width: 100%; /* Ensure it matches the header width */
+    box-sizing: border-box;
+}
+
+#hero {
+    background-color: #000;
+    color: #ff0000; /* Red text */
+    padding: 0; /* Remove padding to ensure elements are closely packed */
+    margin: 0; /* Remove margin to ensure elements are closely packed */
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0; /* Remove margin to ensure elements are closely packed */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about, #projects, #contact {
+    background-color: #000;
+    color: #ff0000; /* Red text */
+    padding: 0; /* Remove padding to ensure elements are closely packed */
+    margin: 0; /* Remove margin to ensure elements are closely packed */
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#about h2, #projects h2, #contact h2 {
+    color: #ff0000; /* Red text */
+}
+
+#about p, #projects p, #contact p {
+    color: #ff0000; /* Red text */
+}
+
+content-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-card {
+    background-color: #333;
+    color: #ff0000; /* Red text */
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.content-card h3 {
+    margin-top: 0;
+    color: #ff0000; /* Red text */
+}
+
+.content-card p {
+    color: #ff0000; /* Red text */
+}
+
+.App-header {
+    background: linear-gradient(to bottom, #000, #ff0000); /* Gradient background from black to red */
+    width: 100%;
+    box-sizing: border-box;
+}
