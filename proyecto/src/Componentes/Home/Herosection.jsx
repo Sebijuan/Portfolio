@@ -13,12 +13,7 @@ function HeroSection() {
                     <p>Explora mis proyectos y conoce más sobre mí.</p>
                 </section>
             </div>
-            <div className="code-background">
-                <h2>Pasión por el Código</h2>
-                <p>
-                    La programación no es solo mi trabajo, es mi pasión. Me encanta resolver problemas complejos y crear soluciones innovadoras que mejoren la experiencia del usuario.
-                </p>
-            </div>
+          
         </div>
     );
 }

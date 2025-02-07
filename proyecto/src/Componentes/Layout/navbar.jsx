@@ -22,7 +22,7 @@ const Navbar = () => {
 
     const handleContactClick = (event) => {
         event.preventDefault();
-        window.location.href = '/contacts-page';
+        window.location.href = '/contacto';
     };
 
     const handleLoginClick = (event) => {

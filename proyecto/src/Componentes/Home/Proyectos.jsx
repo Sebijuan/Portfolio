@@ -7,7 +7,7 @@ function Proyectos() {
             <h2>Proyectos</h2>
             <div className="content-list">
                 <div className="content-card">
-                    <h3>Proyecto 1</h3>
+                    <h3>Mi Proyecto</h3>
                     <p>
                         Desarollando una pagina Web de Personalizacion y Tuneo de Coches llamada "SJCUSTOMS"
                         <br />

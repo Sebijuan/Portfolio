@@ -6,7 +6,8 @@ import Footer from './Componentes/Layout/footer'; // Import Footer
 import HeroSection from './Componentes/Home/Herosection'; // Import HeroSection
 import Proyectos from './Componentes/Home/Proyectos'; // Import Proyectos
 import Habilidades from './Componentes/Home/Habilidades'; // Import Habiliades
-
+import Contacto from './Componentes/Home/Contacto';
+import Sobremi from './Componentes/Home/Sobremi';
 function App() {
   return (
     <Router>
@@ -23,6 +24,8 @@ function App() {
           />
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/habilidades" element={<Habilidades />} />
+          <Route path="/contacto" element={<Contacto />} />
+          <Route path="/sobremi" element={<Sobremi />} />
         </Routes>
         <Footer />
       </div>

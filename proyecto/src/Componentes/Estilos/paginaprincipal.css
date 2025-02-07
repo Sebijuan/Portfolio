@@ -73,14 +73,13 @@ footer {
     text-align: center;
     padding: 20px; /* Increase padding for larger footer */
     width: 100%;
-    position: absolute; /* Change position to absolute */
-    bottom: 0;
-    
+    position: relative; /* Change position to relative */
+    margin-top: auto; /* Ensure footer stays at the bottom */
 }
 
 .hero-section {
-    background-color: #000;
-    color: #ff0000; /* Red text */
+    background: linear-gradient(to bottom, #000, #ff0000); /* Gradient background from black to red */
+    color: #ffffff; /* Red text */
     padding: 20px; /* Add padding for better spacing */
     margin: 0; /* Remove margin to ensure elements are closely packed */
     border-radius: 5px;
@@ -176,4 +175,12 @@ content-card p {
     width: 100%;
     box-sizing: border-box;
 }
+
+.inicio-container {
+    flex: 1; /* Ensure it fills the remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+
 
