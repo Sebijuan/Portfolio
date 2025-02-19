@@ -13,7 +13,6 @@ function HeroSection() {
                     <p>Explora mis proyectos y conoce más sobre mí.</p>
                 </section>
             </div>
-          
         </div>
     );
 }

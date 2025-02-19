@@ -65,6 +65,7 @@ section {
     width: 100%;
     box-sizing: border-box;
     margin: 0; /* Remove margin to ensure elements are closely packed */
+    flex: 1; /* Ensure it fills the remaining space */
 }
 
 footer {
@@ -73,8 +74,8 @@ footer {
     text-align: center;
     padding: 20px; /* Increase padding for larger footer */
     width: 100%;
-    position: relative; /* Change position to relative */
-    margin-top: auto; /* Ensure footer stays at the bottom */
+    position: absolute; /* Change position to absolute */
+    bottom: 0; /* Ensure footer stays at the bottom */
 }
 
 .hero-section {

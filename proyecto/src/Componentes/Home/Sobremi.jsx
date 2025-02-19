@@ -10,7 +10,7 @@ function Sobremi() {
                     <div className="sobremi-images">
                         <img src="/imagenes/sobremi1.webp" alt="Imagen 1" className="sobremi-image" />
                         <img src="/imagenes/sobremi2.webp" alt="Imagen 2" className="sobremi-image" />
-                        <img src="/imagenes/sobremi3.webp" alt="Imagen 2" className="sobremi-image" />
+                        <img src="/imagenes/sobremi3.webp" alt="Imagen 3" className="sobremi-image" />
                     </div>
                     <div className="sobremi-text">
                         <p>

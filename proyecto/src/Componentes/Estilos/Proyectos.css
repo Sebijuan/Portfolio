@@ -1,0 +1,52 @@
+#projects {
+    background-color: #000;
+    color: #ff0000; /* Red text */
+    padding: 40px 20px; /* Add padding for better spacing */
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 0; /* Add margin for spacing around the section */
+    animation: fadeIn 2s ease-in-out; /* Add fade-in animation */
+    flex: 1; /* Ensure it fills the remaining space */
+}
+
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content-card {
+    background-color: #333;
+    color: #ff0000; /* Red text */
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.content-card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.content-card h3 {
+    margin-top: 0;
+    color: #ff0000; /* Red text */
+}
+
+.content-card p {
+    color: #ffffff; /* White text */
+}
+
+.content-card a {
+    color: #ff0000; /* Red text */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.content-card a:hover {
+    color: #ffffff; /* Change color on hover */
+}
