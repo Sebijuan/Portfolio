@@ -1,57 +1,66 @@
+/* Estilos para la sección de "Sobre Mí" */
 #about {
     background-color: #000;
-    color: #ff0000; /* Red text */
-    padding: 40px 20px; /* Add padding for better spacing */
+    color: #ff0000; /* Texto en rojo */
+    padding: 40px 20px; /* Añadir relleno para mejor espaciado */
     text-align: center;
     border-radius: 5px;
-    margin: 20px 0; /* Add margin for spacing around the section */
-    animation: fadeIn 2s ease-in-out; /* Add fade-in animation */
+    margin: 20px 0; /* Añadir margen para espaciado alrededor de la sección */
+    animation: fadeIn 2s ease-in-out; /* Añadir animación de desvanecimiento */
 }
 
+/* Estilos para el contenedor de "Sobre Mí" */
 .sobremi-container {
-    max-width: 1200px; /* Increase max-width for better layout */
+    max-width: 1200px; /* Aumentar el ancho máximo para mejor diseño */
     margin: 0 auto;
-    animation: slideIn 1.5s ease-in-out; /* Add slide-in animation */
+    animation: slideIn 1.5s ease-in-out; /* Añadir animación de deslizamiento */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+/* Estilos para el título de "Sobre Mí" */
 .sobremi-container h2 {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
     margin-bottom: 20px;
 }
 
+/* Estilos para el contenido de "Sobre Mí" */
 .sobremi-content {
     display: flex;
     align-items: flex-start;
     width: 100%;
 }
 
+/* Estilos para las imágenes de "Sobre Mí" */
 .sobremi-images {
     margin-right: 20px;
     display: flex;
     flex-direction: column;
 }
 
+/* Estilos para cada imagen de "Sobre Mí" */
 .sobremi-image {
-    width: 150px; /* Adjust width as needed */
+    width: 150px; /* Ajustar el ancho según sea necesario */
     height: auto;
     margin-bottom: 10px;
     border-radius: 5px;
 }
 
+/* Estilos para el texto de "Sobre Mí" */
 .sobremi-text {
     flex: 1;
     text-align: justify;
 }
 
+/* Estilos para los párrafos de "Sobre Mí" */
 .sobremi-text p {
-    color: #ffffff; /* White text */
+    color: #ffffff; /* Texto en blanco */
     margin-bottom: 20px;
     line-height: 1.6;
 }
 
+/* Animación de desvanecimiento */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -61,6 +70,7 @@
     }
 }
 
+/* Animación de deslizamiento */
 @keyframes slideIn {
     from {
         transform: translateY(20px);

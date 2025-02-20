@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Estilos/Sobremi.css'; // Corrected import path
+import '../Estilos/Sobremi.css'; 
 
 function Sobremi() {
     return (

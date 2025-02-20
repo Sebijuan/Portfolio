@@ -1,16 +1,20 @@
 import React, { useState, useRef } from 'react';
-import '../Estilos/Blog.css'; // Ensure you have a corresponding CSS file for styling
+import '../Estilos/Blog.css'; // Asegúrate de tener un archivo CSS correspondiente para los estilos
 
 function Blog() {
+    // Estado para manejar qué posts están expandidos
     const [expandedPosts, setExpandedPosts] = useState({});
+    // Referencias para los posts del blog
     const postRefs = useRef({});
 
+    // Función para alternar la expansión de un post
     const toggleExpand = (postId) => {
         setExpandedPosts(prevState => {
             const newState = {
                 ...prevState,
                 [postId]: !prevState[postId]
             };
+            // Si el post está expandido, hacer scroll hacia él
             if (newState[postId]) {
                 postRefs.current[postId].scrollIntoView({ behavior: 'smooth' });
             }
@@ -24,6 +28,7 @@ function Blog() {
                 <div className="blog-container" style={{ paddingBottom: '50px' }}>
                     <h2>Blog</h2>
                     <div className="blog-content">
+                        {/* Primer post del blog */}
                         <article className="blog-post" key="post-1" ref={el => postRefs.current[1] = el}>
                             <h3>Mi Primer Proyecto Web</h3>
                             <p>
@@ -33,13 +38,13 @@ function Blog() {
                             {expandedPosts[1] && (
                                 <p>
                                     Crear mi primer proyecto web fue un reto emocionante. Quería desarrollar una página interactiva para amantes del tuning, donde pudieran explorar y personalizar coches. Aprender a manejar JavaScript para crear galerías dinámicas y configuradores fue esencial, pero también enfrenté desafíos con la optimización de carga y la adaptación a dispositivos móviles. Este proyecto me enseñó mucho sobre desarrollo web, diseño responsivo y la importancia de ofrecer una experiencia de usuario fluida. ¡Un gran primer paso para seguir aprendiendo! 🚗💨 #WebDevelopment #Tuning #Personalización
-
                                 </p>
                             )}
                             <button onClick={() => toggleExpand(1)} className="read-more">
                                 {expandedPosts[1] ? 'Leer menos' : 'Leer más'}
                             </button>
                         </article>
+                        {/* Segundo post del blog */}
                         <article className="blog-post" key="post-2" ref={el => postRefs.current[2] = el}>
                             <h3>Consejos para Aprender JavaScript</h3>
                             <p>
@@ -55,11 +60,10 @@ function Blog() {
                                 {expandedPosts[2] ? 'Leer menos' : 'Leer más'}
                             </button>
                         </article>
-                      
+                       
                     </div>
                 </div>
             </section>
-          
         </>
     );
 }

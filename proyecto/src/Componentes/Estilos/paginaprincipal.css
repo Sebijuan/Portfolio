@@ -1,14 +1,16 @@
+/* Estilos generales para el cuerpo */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #000, #ff0000); /* Gradient background from black to red */
-    color: #ff0000; /* Red text */
+    background: linear-gradient(to bottom, #000, #ff0000); /* Fondo degradado de negro a rojo */
+    color: #ff0000; /* Texto en rojo */
     font-family: Arial, sans-serif;
 }
 
+/* Estilos para el encabezado */
 header {
     background-color: #000;
     padding: 20px;
@@ -18,23 +20,24 @@ header {
 
 header h1 {
     margin: 0;
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para la barra de navegación */
 nav {
     display: flex;
     justify-content: center;
-    background-color: #000; /* Black background */
+    background-color: #000; /* Fondo negro */
     width: 100%;
-    padding: 30px 0; /* Increase padding for larger navbar */
-    margin: 0; /* Remove margin to ensure elements are closely packed */
+    padding: 30px 0; /* Aumentar relleno para una barra de navegación más grande */
+    margin: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
 }
 
 nav h1 {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
     margin: 0;
     padding: 0 20px;
-    font-size: 28px; /* Increase font size */
+    font-size: 28px; /* Aumentar tamaño de fuente */
 }
 
 nav ul {
@@ -45,63 +48,68 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px; /* Increase margin for larger spacing */
+    margin: 0 20px; /* Aumentar margen para mayor espaciado */
 }
 
 nav a {
-    color: #ff0000; /* Red text */
-    padding: 20px 30px; /* Increase padding for larger clickable area */
+    color: #ff0000; /* Texto en rojo */
+    padding: 20px 30px; /* Aumentar relleno para una área clicable más grande */
     text-decoration: none;
     text-align: center;
-    font-size: 20px; /* Increase font size */
+    font-size: 20px; /* Aumentar tamaño de fuente */
 }
 
 nav a:hover {
-    background-color: #333; /* Darker background on hover */
+    background-color: #333; /* Fondo más oscuro al pasar el ratón */
 }
 
+/* Estilos para las secciones */
 section {
-    padding: 0; /* Remove padding to ensure elements are closely packed */
+    padding: 0; /* Eliminar relleno para asegurar que los elementos estén juntos */
     width: 100%;
     box-sizing: border-box;
-    margin: 0; /* Remove margin to ensure elements are closely packed */
-    flex: 1; /* Ensure it fills the remaining space */
+    margin: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
+    flex: 1; /* Asegurar que llene el espacio restante */
 }
 
+/* Estilos para el pie de página */
 footer {
     background-color: #000;
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
     text-align: center;
-    padding: 20px; /* Increase padding for larger footer */
+    padding: 20px; /* Aumentar relleno para un pie de página más grande */
     width: 100%;
-    position: absolute; /* Change position to absolute */
-    bottom: 0; /* Ensure footer stays at the bottom */
+    position: absolute; /* Cambiar posición a absoluta */
+    bottom: 0; /* Asegurar que el pie de página esté en la parte inferior */
 }
 
+/* Estilos para la sección de héroe */
 .hero-section {
-    background: linear-gradient(to bottom, #000, #ff0000); /* Gradient background from black to red */
-    color: #ffffff; /* Red text */
-    padding: 20px; /* Add padding for better spacing */
-    margin: 0; /* Remove margin to ensure elements are closely packed */
+    background: linear-gradient(to bottom, #000, #ff0000); /* Fondo degradado de negro a rojo */
+    color: #ffffff; /* Texto en blanco */
+    padding: 20px; /* Añadir relleno para mejor espaciado */
+    margin: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
     border-radius: 5px;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    flex: 1; /* Ensure it fills the remaining space */
-    height: 910px; /* Increase height */
+    flex: 1; /* Asegurar que llene el espacio restante */
+    height: 910px; /* Aumentar altura */
 }
 
+/* Estilos para la imagen de héroe */
 .hero-image {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    margin-bottom: 0; /* Remove margin to ensure elements are closely packed */
+    margin-bottom: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    animation: fadeIn 2s ease-in-out; /* Add fade-in animation */
+    animation: fadeIn 2s ease-in-out; /* Añadir animación de desvanecimiento */
 }
 
+/* Animación de desvanecimiento */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -111,10 +119,12 @@ footer {
     }
 }
 
+/* Clase para añadir animación de rebote */
 .animated-image {
-    animation: bounce 2s infinite; /* Add bounce animation */
+    animation: bounce 2s infinite; /* Añadir animación de rebote */
 }
 
+/* Animación de rebote */
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -127,58 +137,67 @@ footer {
     }
 }
 
+/* Estilos para las secciones de about, projects y contact */
 #about, #projects, #contact {
     background-color: #000;
-    color: #ff0000; /* Red text */
-    padding: 0; /* Remove padding to ensure elements are closely packed */
-    margin: 0; /* Remove margin to ensure elements are closely packed */
+    color: #ff0000; /* Texto en rojo */
+    padding: 0; /* Eliminar relleno para asegurar que los elementos estén juntos */
+    margin: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
 }
 
+/* Estilos para los títulos de las secciones de about, projects y contact */
 #about h2, #projects h2, #contact h2 {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para los párrafos de las secciones de about, projects y contact */
 #about p, #projects p, #contact p {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para la lista de contenido */
 .content-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 0; /* Remove gap to ensure elements are closely packed */
+    gap: 0; /* Eliminar espacio para asegurar que los elementos estén juntos */
     width: 100%;
     box-sizing: border-box;
 }
 
+/* Estilos para cada tarjeta de contenido */
 .content-card {
     background-color: #333;
-    color: #ff0000; /* Red text */
-    padding: 0; /* Remove padding to ensure elements are closely packed */
+    color: #ff0000; /* Texto en rojo */
+    padding: 0; /* Eliminar relleno para asegurar que los elementos estén juntos */
     border-radius: 5px;
     flex: 1 1 calc(33.333% - 20px);
     box-sizing: border-box;
 }
 
+/* Estilos para el título de cada tarjeta de contenido */
 .content-card h3 {
     margin-top: 0;
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para los párrafos de cada tarjeta de contenido */
 content-card p {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para el encabezado de la aplicación */
 .App-header {
-    background: linear-gradient(to bottom, #000, #ff0000); /* Gradient background from black to red */
+    background: linear-gradient(to bottom, #000, #ff0000); /* Fondo degradado de negro a rojo */
     width: 100%;
     box-sizing: border-box;
 }
 
+/* Estilos para el contenedor de inicio */
 .inicio-container {
-    flex: 1; /* Ensure it fills the remaining space */
+    flex: 1; /* Asegurar que llene el espacio restante */
     display: flex;
     flex-direction: column;
 }

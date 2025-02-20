@@ -1,57 +1,65 @@
+/* Establecer altura completa y eliminar márgenes y rellenos */
 html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
+/* Configurar el cuerpo para usar flexbox y permitir el desplazamiento vertical */
 body {
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
 }
 
+/* Configurar el contenedor raíz para usar flexbox */
 #root {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
 
+/* Estilos para el contenedor del blog */
 .blog-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    min-height: calc(100vh - 100px); /* Adjust based on your footer height */
+    min-height: calc(100vh - 100px); /* Ajustar según la altura del pie de página */
     flex: 1;
-    overflow-y: auto; /* Add this line to enable scrolling */
-    padding-bottom: 300px; /* Further increase padding to the bottom */
-    position: relative; /* Ensure the container is positioned relative */
+    overflow-y: auto; /* Habilitar desplazamiento */
+    padding-bottom: 300px; /* Aumentar el relleno inferior */
+    position: relative; /* Asegurar que el contenedor esté posicionado de manera relativa */
 }
 
+/* Estilos para el contenido del blog */
 .blog-content {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+/* Estilos para cada post del blog */
 .blog-post {
     background-color: #000000;
     padding: 20px;
     border-radius: 8px;
-  
 }
 
+/* Estilos para el título de cada post */
 .blog-post h3 {
     margin-top: 0;
     font-size: 1.5em;
     color: #ff0000;
 }
 
+/* Estilos para el texto de cada post */
 .blog-post p {
     font-size: 1em;
     color: #ff0000;
     line-height: 1.6;
 }
 
+/* Estilos para el botón de leer más */
 .read-more {
     display: inline-block;
     margin-top: 10px;
@@ -64,18 +72,20 @@ body {
     padding: 0;
 }
 
+/* Estilos para el botón de leer más al pasar el ratón */
 .read-more:hover {
     text-decoration: underline;
 }
 
+/* Estilos para el pie de página */
 footer {
     background-color: #000;
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
     text-align: center;
-    padding: 20px; /* Increase padding for larger footer */
+    padding: 20px; /* Aumentar el relleno para un pie de página más grande */
     width: 100%;
-    position: fixed; /* Change position to fixed */
-    bottom: 0; /* Ensure footer stays at the bottom */
-    left: 0; /* Ensure footer spans the entire width */
+    position: fixed; /* Cambiar la posición a fija */
+    bottom: 0; /* Asegurar que el pie de página esté en la parte inferior */
+    left: 0; /* Asegurar que el pie de página abarque todo el ancho */
 }
 

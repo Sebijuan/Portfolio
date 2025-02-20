@@ -1,22 +1,26 @@
+/* Estilos para la sección de habilidades */
 #skills {
     background-color: #000;
-    color: #ff0000; /* Red text */
-    padding: 40px 20px; /* Add padding for better spacing */
+    color: #ff0000; /* Texto en rojo */
+    padding: 40px 20px; /* Añadir relleno para mejor espaciado */
     text-align: center;
     border-radius: 5px;
-    margin: 20px 0; /* Add margin for spacing around the section */
-    animation: fadeIn 2s ease-in-out; /* Add fade-in animation */
-    flex: 1; /* Ensure it fills the remaining space */
+    margin: 20px 0; /* Añadir margen para espaciado alrededor de la sección */
+    animation: fadeIn 2s ease-in-out; /* Añadir animación de desvanecimiento */
+    flex: 1; /* Asegurar que llene el espacio restante */
 }
 
+/* Estilos para el título de la sección de habilidades */
 #skills h2 {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para los párrafos de la sección de habilidades */
 #skills p {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para la lista de contenido */
 .content-list {
     display: flex;
     flex-wrap: wrap;
@@ -26,38 +30,45 @@
     box-sizing: border-box;
 }
 
+/* Estilos para cada tarjeta de contenido */
 .content-card {
     background-color: #333;
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
     padding: 20px;
     border-radius: 5px;
     flex: 1 1 calc(33.333% - 20px);
     box-sizing: border-box;
-    transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+    transition: transform 0.3s ease-in-out; /* Añadir transición para efecto hover */
 }
 
+/* Efecto hover para cada tarjeta de contenido */
 .content-card:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    transform: scale(1.05); /* Aumentar tamaño al pasar el ratón */
 }
 
+/* Estilos para el título de cada tarjeta de contenido */
 .content-card h3 {
     margin-top: 0;
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para los párrafos de cada tarjeta de contenido */
 .content-card p {
-    color: #ff0000; /* Red text */
+    color: #ff0000; /* Texto en rojo */
 }
 
+/* Estilos para las listas dentro de cada tarjeta de contenido */
 .content-card ul {
     list-style: none;
     padding: 0;
 }
 
+/* Estilos para los elementos de la lista dentro de cada tarjeta de contenido */
 .content-card ul li {
     margin: 5px 0;
 }
 
+/* Estilos para los iconos de habilidades */
 .skill-icon {
     width: 20px;
     height: 20px;
