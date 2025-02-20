@@ -79,3 +79,41 @@
         opacity: 1;
     }
 }
+
+/* Estilos responsivos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #contacto {
+        padding: 30px 15px;
+    }
+
+    .contacto-container {
+        padding: 0 15px;
+    }
+
+    .contacto-lista li i {
+        font-size: 18px;
+    }
+
+    .contacto-lista li a {
+        font-size: 0.9em;
+    }
+}
+
+/* Estilos responsivos para móviles */
+@media (max-width: 767px) {
+    #contacto {
+        padding: 20px 10px;
+    }
+
+    .contacto-container {
+        padding: 0 10px;
+    }
+
+    .contacto-lista li i {
+        font-size: 16px;
+    }
+
+    .contacto-lista li a {
+        font-size: 0.8em;
+    }
+}

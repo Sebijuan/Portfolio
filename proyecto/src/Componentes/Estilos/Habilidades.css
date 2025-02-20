@@ -17,7 +17,7 @@
 
 /* Estilos para los párrafos de la sección de habilidades */
 #skills p {
-    color: #ff0000; /* Texto en rojo */
+    color: #ffffff; /* Texto en rojo */
 }
 
 /* Estilos para la lista de contenido */
@@ -32,7 +32,7 @@
 
 /* Estilos para cada tarjeta de contenido */
 .content-card {
-    background-color: #333;
+    background-color: #000000;
     color: #ff0000; /* Texto en rojo */
     padding: 20px;
     border-radius: 5px;
@@ -74,4 +74,44 @@
     height: 20px;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/* Estilos responsivos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #skills {
+        padding: 30px 15px;
+    }
+
+    .content-card {
+        flex: 1 1 calc(50% - 20px);
+        padding: 15px;
+    }
+
+    .content-card h3 {
+        font-size: 1.2em;
+    }
+
+    .content-card p {
+        font-size: 0.9em;
+    }
+}
+
+/* Estilos responsivos para móviles */
+@media (max-width: 767px) {
+    #skills {
+        padding: 20px 10px;
+    }
+
+    .content-card {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+
+    .content-card h3 {
+        font-size: 1em;
+    }
+
+    .content-card p {
+        font-size: 0.8em;
+    }
 }

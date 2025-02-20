@@ -89,3 +89,49 @@ footer {
     left: 0; /* Asegurar que el pie de página abarque todo el ancho */
 }
 
+/* Estilos responsivos para tabletas */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .blog-container {
+        padding: 15px;
+    }
+
+    .blog-post {
+        padding: 15px;
+    }
+
+    .blog-post h3 {
+        font-size: 1.2em;
+    }
+
+    .blog-post p {
+        font-size: 0.9em;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+/* Estilos responsivos para móviles */
+@media (max-width: 767px) {
+    .blog-container {
+        padding: 10px;
+    }
+
+    .blog-post {
+        padding: 10px;
+    }
+
+    .blog-post h3 {
+        font-size: 1em;
+    }
+
+    .blog-post p {
+        font-size: 0.8em;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
