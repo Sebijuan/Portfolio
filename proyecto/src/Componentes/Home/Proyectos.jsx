@@ -11,7 +11,7 @@ function Proyectos() {
                     <p>
                         Desarollando una pagina Web de Personalizacion y Tuneo de Coches llamada "SJCUSTOMS"
                         <br />
-                        <a href="https://ec-sebastian-juan-coca.vercel.app/" target="_blank" rel="noopener noreferrer">Entrar en la Pagina del Proyecto</a>
+                        <a href="https://ec-sebastian-juan-coca-lt1k.vercel.app/" target="_blank" rel="noopener noreferrer">Entrar en la Pagina del Proyecto</a>
                     </p>
                 </div>
                 {/* Add more project cards as needed */}
