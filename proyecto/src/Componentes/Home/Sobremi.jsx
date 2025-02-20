@@ -34,6 +34,11 @@ function Sobremi() {
                             conocimientos. Mi pasión por la programación y mi dedicación al trabajo me impulsan a superar desafíos y alcanzar 
                             la excelencia en cada proyecto que emprendo.
                         </p>
+                        <p>
+                            Estoy siempre en busca de nuevos desafíos y oportunidades para aplicar mis conocimientos en proyectos reales. 
+                            Mi objetivo es seguir creciendo como desarrollador y contribuir a la creación de aplicaciones web que sean tanto 
+                            innovadoras como útiles para los usuarios.
+                        </p>
                     </div>
                 </div>
             </div>

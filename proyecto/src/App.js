@@ -8,6 +8,7 @@ import Proyectos from './Componentes/Home/Proyectos'; // Import Proyectos
 import Habilidades from './Componentes/Home/Habilidades'; // Import Habiliades
 import Contacto from './Componentes/Home/Contacto';
 import Sobremi from './Componentes/Home/Sobremi';
+import Blog from './Componentes/Home/Blog';
 function App() {
   return (
     <Router>
@@ -26,6 +27,7 @@ function App() {
           <Route path="/habilidades" element={<Habilidades />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/sobremi" element={<Sobremi />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <Footer />
       </div>

@@ -25,19 +25,16 @@ const Navbar = () => {
         window.location.href = '/contacto';
     };
 
-    const handleLoginClick = (event) => {
-        event.preventDefault();
-        window.location.href = '/login-page';
-    };
+    
 
     const handleHabilidadesClick = (event) => {
         event.preventDefault();
         window.location.href = '/habilidades';
     };
 
-    const handleAemetClick = (event) => {
+    const handleBlogClick = (event) => {
         event.preventDefault();
-        window.location.href = '/aemet';
+        window.location.href = '/blog';
     };
 
     return (
@@ -47,7 +44,7 @@ const Navbar = () => {
                 <li><a href="/sobremi" onClick={handleAboutClick} className="navbar-link">Sobre Mi</a></li>
                 <li><a href="/proyectos" onClick={handleProyectosClick} className="navbar-link">Proyectos</a></li>
                 <li><a href="/contacto" onClick={handleContactClick} className="navbar-link">Contacto</a></li>
-                <li><a href="/blog" onClick={handleLoginClick} className="navbar-link">Blog</a></li>
+                <li><a href="/blog" onClick={handleBlogClick} className="navbar-link">Blog</a></li>
                 <li><a href="/habilidades" onClick={handleHabilidadesClick} className="navbar-link">Habilidades</a></li>
             </ul>
         </nav>
