@@ -34,7 +34,7 @@ body {
 }
 
 .blog-post {
-    background-color: #f9f9f9;
+    background-color: #000000;
     padding: 20px;
     border-radius: 8px;
   
@@ -43,12 +43,12 @@ body {
 .blog-post h3 {
     margin-top: 0;
     font-size: 1.5em;
-    color: #333;
+    color: #ff0000;
 }
 
 .blog-post p {
     font-size: 1em;
-    color: #666;
+    color: #ff0000;
     line-height: 1.6;
 }
 

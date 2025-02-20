@@ -39,6 +39,11 @@ function Sobremi() {
                             Mi objetivo es seguir creciendo como desarrollador y contribuir a la creación de aplicaciones web que sean tanto 
                             innovadoras como útiles para los usuarios.
                         </p>
+                        <p>
+                        Mi objetivo es seguir creciendo como profesional, enfrentando nuevos desafíos y aplicando mis conocimientos en proyectos reales que resulten útiles e innovadores para los usuarios. Estoy decidido a perfeccionar mis habilidades tanto en el desarrollo frontend como backend, aprendiendo nuevas herramientas y lenguajes de programación que me permitan construir aplicaciones web más robustas y escalables.
+                       
+                        </p>
+                    
                     </div>
                 </div>
             </div>
