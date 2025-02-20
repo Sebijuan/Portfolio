@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Estilos/Proyectos.css'; // Corrected import path
+import '../Estilos/Proyectos.css'; 
 
 function Proyectos() {
     return (
