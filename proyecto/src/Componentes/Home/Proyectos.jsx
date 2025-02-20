@@ -14,7 +14,7 @@ function Proyectos() {
                         <a href="https://ec-sebastian-juan-coca-lt1k.vercel.app/" target="_blank" rel="noopener noreferrer">Entrar en la Pagina del Proyecto</a>
                     </p>
                 </div>
-                {/* Add more project cards as needed */}
+                
             </div>
         </section>
     );
