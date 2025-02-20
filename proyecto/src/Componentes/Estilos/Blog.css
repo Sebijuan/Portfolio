@@ -22,6 +22,9 @@ body {
     padding: 20px;
     min-height: calc(100vh - 100px); /* Adjust based on your footer height */
     flex: 1;
+    overflow-y: auto; /* Add this line to enable scrolling */
+    padding-bottom: 300px; /* Further increase padding to the bottom */
+    position: relative; /* Ensure the container is positioned relative */
 }
 
 .blog-content {
@@ -65,5 +68,14 @@ body {
     text-decoration: underline;
 }
 
-/* Fix the footer at the bottom of the page */
+footer {
+    background-color: #000;
+    color: #ff0000; /* Red text */
+    text-align: center;
+    padding: 20px; /* Increase padding for larger footer */
+    width: 100%;
+    position: fixed; /* Change position to fixed */
+    bottom: 0; /* Ensure footer stays at the bottom */
+    left: 0; /* Ensure footer spans the entire width */
+}
 
