@@ -18,22 +18,22 @@ function HeroSection() {
                         <div className="estudios">
                             <h3>Estudios</h3>
                             <div className="estudio-item">
-                                <h4>Bachillerato Tecnológico</h4>
+                                <h4>Bachillerato Tecnológico 2021-2023</h4>
                                 <p>Proporcionó una sólida base en ciencias y tecnología.</p>
                             </div>
                             <div className="estudio-item">
-                                <h4>Grado Superior de Desarrollo de Aplicaciones Web</h4>
+                                <h4>Grado Superior de Desarrollo de Aplicaciones Web 2023-2025</h4>
                                 <p>Adquiriendo habilidades avanzadas en programación y desarrollo web.</p>
                             </div>
                         </div>
                         <div className="trabajos">
                             <h3>Trabajos</h3>
                             <div className="trabajo-item">
-                                <h4>Teleoperador en Konecta</h4>
+                                <h4>Teleoperador en Konecta 2023-2023</h4>
                                 <p>Desarrollé habilidades de comunicación y atención al cliente.</p>
                             </div>
                             <div className="trabajo-item">
-                                <h4>Camarero de boda en Hacienda el Vizir</h4>
+                                <h4>Camarero de boda en Hacienda el Vizir 2022-2022</h4>
                                 <p>Demostré mi capacidad para trabajar en equipo y ofrecer un excelente servicio al cliente.</p>
                             </div>
                         </div>
