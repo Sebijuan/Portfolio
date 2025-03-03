@@ -43,10 +43,12 @@ const Navbar = () => {
                 <li><a href="#home" onClick={handleHomeClick} className="navbar-link">Inicio</a></li>
                 <li><a href="/sobremi" onClick={handleAboutClick} className="navbar-link">Sobre Mi</a></li>
                 <li><a href="/proyectos" onClick={handleProyectosClick} className="navbar-link">Proyectos</a></li>
-                <li><a href="/contacto" onClick={handleContactClick} className="navbar-link">Contacto</a></li>
                 <li><a href="/blog" onClick={handleBlogClick} className="navbar-link">Blog</a></li>
                 <li><a href="/habilidades" onClick={handleHabilidadesClick} className="navbar-link">Habilidades</a></li>
-            </ul>
+                <li><a href="/contacto" onClick={handleContactClick} className="navbar-link">Contacto</a></li>
+            </ul> 
+             
+
         </nav>
     );
 };

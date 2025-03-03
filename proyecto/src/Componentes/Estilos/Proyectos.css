@@ -33,7 +33,7 @@
 
 /* Efecto hover para cada tarjeta de contenido */
 .content-card:hover {
-    transform: scale(1.05); /* Aumentar tamaño al pasar el ratón */
+    transform: scale(1.00); /* Reducir el aumento de tamaño al pasar el ratón */
 }
 
 /* Estilos para el título de cada tarjeta de contenido */
@@ -63,4 +63,26 @@
 .content-card a:hover {
     color: #ffffff; /* Cambiar color al pasar el ratón */
     background-color: #ff0000; /* Añadir fondo rojo al pasar el ratón */
+}
+
+/* Estilos para la imagen del proyecto */
+.project-image {
+    max-width: 15%; 
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 2s ease-in-out; /* Añadir animación de desvanecimiento */
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

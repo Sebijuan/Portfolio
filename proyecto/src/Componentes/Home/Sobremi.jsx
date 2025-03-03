@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Estilos/Sobremi.css';
-import EstudiosTrabajos from './EstudiosTrabajos';
 
 function Sobremi() {
     return (
@@ -14,39 +13,34 @@ function Sobremi() {
                         <img src="/imagenes/sobremi3.webp" alt="Imagen 3" className="sobremi-image" />
                     </div>
                     <div className="sobremi-text">
+                        <h3>Introducción</h3>
                         <p>
                             Soy un estudiante de desarrollo de aplicaciones web apasionado por la tecnología y la programación. 
                             Actualmente, estoy cursando un Grado Superior de Desarrollo de Aplicaciones Web y me especializo en el desarrollo 
-                            de aplicaciones web. Mi objetivo es crear soluciones innovadoras y eficientes que mejoren la experiencia del 
-                            usuario y resuelvan problemas complejos.
+                            de aplicaciones web.
                         </p>
+                        <h3>Experiencia</h3>
                         <p>
-                            Tengo experiencia en diversas tecnologías como HTML, CSS, JavaScript, React, y Node.js. Me esfuerzo por 
-                            mantenerme actualizado con las últimas tendencias y mejores prácticas en el desarrollo web. Además, disfruto 
-                            trabajando en equipo y colaborando con otros desarrolladores para alcanzar metas comunes.
+                            Tengo experiencia en diversas tecnologías como <strong>HTML, CSS, JavaScript, React, y Node.js</strong>. Me esfuerzo por 
+                            mantenerme actualizado con las últimas tendencias y mejores prácticas en el desarrollo web. 
                         </p>
+                        <h3>Intereses</h3>
                         <p>
-                            Fuera del ámbito tecnológico, me encanta practicar deportes y mantenerme activo. Creo firmemente en el equilibrio 
-                            entre el trabajo y la vida personal, y encuentro en los deportes una excelente manera de despejar la mente y 
-                            mantenerme saludable.
+                            Fuera del ámbito tecnológico, me encanta practicar deportes y mantenerme activo.
                         </p>
+                        <h3>Compromiso</h3>
                         <p>
                             Estoy comprometido con el aprendizaje continuo y siempre busco oportunidades para mejorar mis habilidades y 
-                            conocimientos. Mi pasión por la programación y mi dedicación al trabajo me impulsan a superar desafíos y alcanzar 
-                            la excelencia en cada proyecto que emprendo.
+                            conocimientos. 
                         </p>
+                        <h3>Objetivos</h3>
                         <p>
                             Estoy siempre en busca de nuevos desafíos y oportunidades para aplicar mis conocimientos en proyectos reales. 
-                            Mi objetivo es seguir creciendo como desarrollador y contribuir a la creación de aplicaciones web que sean tanto 
-                            innovadoras como útiles para los usuarios.
                         </p>
-                        <p>
-                            Mi objetivo es seguir creciendo como profesional, enfrentando nuevos desafíos y aplicando mis conocimientos en proyectos reales que resulten útiles e innovadores para los usuarios. Estoy decidido a perfeccionar mis habilidades tanto en el desarrollo frontend como backend, aprendiendo nuevas herramientas y lenguajes de programación que me permitan construir aplicaciones web más robustas y escalables.
-                        </p>
+                        
                     </div>
                 </div>
             </div>
-            <EstudiosTrabajos />
         </section>
     );
 }

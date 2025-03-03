@@ -26,6 +26,10 @@ function Contacto() {
                     </li>
                 </ul>
             </div>
+            <div className="contacto-images">
+                <img src="/imagenes/contacto.jpeg" alt="Contacto 1" className="contacto-image" />
+                <img src="/imagenes/contacto2.jpeg" alt="Contacto 2" className="contacto-image" />
+            </div>
         </section>
     );
 }

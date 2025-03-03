@@ -79,14 +79,26 @@ footer {
     text-align: center;
     padding: 20px; /* Aumentar relleno para un pie de página más grande */
     width: 100%;
-    position: absolute; /* Cambiar posición a absoluta */
+    position: relative; /* Cambiar posición a relativa */
     bottom: 0; /* Asegurar que el pie de página esté en la parte inferior */
+}
+
+/* Estilos para el pie de página fijo */
+.fixed-footer {
+    position: relative; /* Cambiar posición a relativa */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: #ff0000;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Estilos para la sección de héroe */
 .hero-section {
     background: linear-gradient(to bottom, #000, #ff0000); /* Fondo degradado de negro a rojo */
-    color: #ffffff; /* Texto en blanco */
+    color: #ff0000; /* Texto en blanco */
     padding: 20px; /* Añadir relleno para mejor espaciado */
     margin: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
     border-radius: 5px;
@@ -200,6 +212,71 @@ content-card p {
     flex: 1; /* Asegurar que llene el espacio restante */
     display: flex;
     flex-direction: column;
+}
+
+/* Estilos para la sección de "Estudios y Trabajos" */
+#estudios-trabajos {
+    background-color: #000;
+    color: #ff0000; /* Texto en rojo */
+    padding: 40px 20px; /* Añadir relleno para mejor espaciado */
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 0; /* Añadir margen para espaciado alrededor de la sección */
+    animation: fadeIn 2s ease-in-out; /* Añadir animación de desvanecimiento */
+}
+
+/* Estilos para el contenedor de "Estudios y Trabajos" */
+.estudios-trabajos-container {
+    max-width: 1200px; /* Aumentar el ancho máximo para mejor diseño */
+    margin: 0 auto;
+    animation: slideIn 1.5s ease-in-out; /* Añadir animación de deslizamiento */
+    display: flex;
+    flex-direction: column;
+   	align-items: center;
+}
+
+/* Estilos para el título de "Estudios y Trabajos" */
+.estudios-trabajos-container h2 {
+    color: #ff0000; /* Texto en rojo */
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenido de "Estudios y Trabajos" */
+.estudios-trabajos-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Estilos para las subsecciones de "Estudios y Trabajos" */
+.estudios, .trabajos {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los títulos de las subsecciones */
+.estudios h3, .trabajos h3 {
+    color: #ff0000; /* Texto en rojo */
+    margin-bottom: 10px;
+}
+
+/* Estilos para los párrafos de las subsecciones */
+.estudios p, .trabajos p {
+    color: #ffffff; /* Texto en blanco */
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Animación de deslizamiento */
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /* Estilos responsivos para tabletas */
