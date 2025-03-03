@@ -232,7 +232,7 @@ content-card p {
     animation: slideIn 1.5s ease-in-out; /* Añadir animación de deslizamiento */
     display: flex;
     flex-direction: column;
-   	align-items: center;
+    align-items: center;
 }
 
 /* Estilos para el título de "Estudios y Trabajos" */
@@ -252,6 +252,7 @@ content-card p {
 /* Estilos para las subsecciones de "Estudios y Trabajos" */
 .estudios, .trabajos {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 /* Estilos para los títulos de las subsecciones */
@@ -260,9 +261,23 @@ content-card p {
     margin-bottom: 10px;
 }
 
-/* Estilos para los párrafos de las subsecciones */
-.estudios p, .trabajos p {
-    color: #ffffff; /* Texto en blanco */
+/* Estilos para los elementos de estudio y trabajo */
+.estudio-item, .trabajo-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los títulos de los elementos de estudio y trabajo */
+.estudio-item h4, .trabajo-item h4 {
+    color: #ff0000; /* Texto en rojo */
+    margin-bottom: 5px;
+}
+
+/* Estilos para los párrafos de los elementos de estudio y trabajo */
+.estudio-item p, .trabajo-item p {
+    color: #000000; /* Texto en blanco */
     text-align: justify;
     line-height: 1.6;
 }
@@ -275,6 +290,16 @@ content-card p {
     }
     to {
         transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
         opacity: 1;
     }
 }
