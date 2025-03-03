@@ -70,7 +70,7 @@
     height: auto;
     margin: 0 10px;
     border-radius: 5px;
-    animation: fadeIn 2s ease-in-out; /* Añadir animación de desvanecimiento */
+    animation: fadeIn 2s ease-in-out, bounce 2s infinite; /* Añadir animación de desvanecimiento y rebote */
 }
 
 /* Animación de desvanecimiento */
@@ -92,6 +92,19 @@
     to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+/* Animación de rebote */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
     }
 }
 
