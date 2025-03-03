@@ -1,20 +1,20 @@
 import React from 'react';
-import '../Estilos/Proyectos.css'; 
+import '../Estilos/Proyectos.css';
 
 function Proyectos() {
     return (
         <section id="projects">
-            <h2>Proyectos</h2>
+            <h2>Proyectos Destacados</h2>
             <div className="content-list">
                 <div className="content-card">
-                    <h3>Mi Proyecto</h3>
+                    <h3>SJCUSTOMS</h3>
                     <p>
-                        Desarollando una pagina Web de Personalizacion y Tuneo de Coches llamada "SJCUSTOMS"
-                        <br />
-                        <a href="https://ec-sebastian-juan-coca-lt1k.vercel.app/" target="_blank" rel="noopener noreferrer">Entrar en la Pagina del Proyecto</a>
+                        Explora nuestra innovadora página web dedicada a la personalización y tuneo de coches. En SJCUSTOMS, ofrecemos una experiencia única para los entusiastas del automóvil, permitiéndoles transformar sus vehículos con estilo y precisión.
                     </p>
+                    <a href="https://ec-sebastian-juan-coca-lt1k.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                        Visitar Proyecto
+                    </a>
                 </div>
-                
             </div>
         </section>
     );

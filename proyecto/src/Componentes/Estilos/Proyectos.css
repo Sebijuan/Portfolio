@@ -51,10 +51,16 @@
 .content-card a {
     color: #ff0000; /* Texto en rojo */
     text-decoration: none;
-    transition: color 0.3s ease-in-out; /* Añadir transición para efecto hover */
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Añadir transición para efecto hover */
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
 }
 
 /* Efecto hover para los enlaces de cada tarjeta de contenido */
 .content-card a:hover {
     color: #ffffff; /* Cambiar color al pasar el ratón */
+    background-color: #ff0000; /* Añadir fondo rojo al pasar el ratón */
 }

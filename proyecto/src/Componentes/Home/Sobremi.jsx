@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Estilos/Sobremi.css'; 
+import '../Estilos/Sobremi.css';
+import EstudiosTrabajos from './EstudiosTrabajos';
 
 function Sobremi() {
     return (
@@ -40,13 +41,12 @@ function Sobremi() {
                             innovadoras como útiles para los usuarios.
                         </p>
                         <p>
-                        Mi objetivo es seguir creciendo como profesional, enfrentando nuevos desafíos y aplicando mis conocimientos en proyectos reales que resulten útiles e innovadores para los usuarios. Estoy decidido a perfeccionar mis habilidades tanto en el desarrollo frontend como backend, aprendiendo nuevas herramientas y lenguajes de programación que me permitan construir aplicaciones web más robustas y escalables.
-                       
+                            Mi objetivo es seguir creciendo como profesional, enfrentando nuevos desafíos y aplicando mis conocimientos en proyectos reales que resulten útiles e innovadores para los usuarios. Estoy decidido a perfeccionar mis habilidades tanto en el desarrollo frontend como backend, aprendiendo nuevas herramientas y lenguajes de programación que me permitan construir aplicaciones web más robustas y escalables.
                         </p>
-                    
                     </div>
                 </div>
             </div>
+            <EstudiosTrabajos />
         </section>
     );
 }
