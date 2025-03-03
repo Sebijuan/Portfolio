@@ -385,6 +385,7 @@ content-card p {
     nav {
         padding: 15px 0;
         flex-direction: column;
+        position: relative;
     }
 
     nav h1 {
@@ -393,6 +394,13 @@ content-card p {
 
     nav ul {
         flex-direction: column;
+        display: none; /* Ocultar la lista de navegación por defecto */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        z-index: 1;
     }
 
     nav ul li {
@@ -428,6 +436,20 @@ content-card p {
 
     footer {
         padding: 10px;
+    }
+
+    /* Estilos para el icono de menú hamburguesa */
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #ff0000;
+        margin-left: auto;
+        margin-right: 20px; /* Añadir margen derecho */
+    }
+
+    .hamburger-menu.active + ul {
+        display: flex; /* Mostrar la lista de navegación cuando el menú está activo */
     }
 }
 
