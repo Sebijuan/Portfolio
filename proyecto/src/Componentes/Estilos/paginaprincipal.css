@@ -31,6 +31,7 @@ nav {
     width: 100%;
     padding: 30px 0; /* Aumentar relleno para una barra de navegación más grande */
     margin: 0; /* Eliminar margen para asegurar que los elementos estén juntos */
+    flex-wrap: nowrap; /* Evitar que los elementos se envuelvan */
 }
 
 nav h1 {
@@ -267,6 +268,7 @@ content-card p {
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 10px;
+    animation: fadeInUp 1s ease-in-out; /* Añadir animación de desvanecimiento hacia arriba */
 }
 
 /* Estilos para los títulos de los elementos de estudio y trabajo */
@@ -304,6 +306,18 @@ content-card p {
     }
 }
 
+/* Animación de desvanecimiento hacia arriba */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Estilos responsivos para tabletas */
 @media (min-width: 768px) and (max-width: 1023px) {
     header {
@@ -311,7 +325,8 @@ content-card p {
     }
 
     nav {
-        padding: 20px 0;
+        padding: 30px 0;
+        flex-wrap: nowrap; /* Evitar que los elementos se envuelvan */
     }
 
     nav h1 {
@@ -320,7 +335,7 @@ content-card p {
 
     nav a {
         padding: 15px 20px;
-        font-size: 18px;
+        font-size: 14px; /* Reducir aún más el tamaño de fuente */
     }
 
     .hero-section {

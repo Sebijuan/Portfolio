@@ -112,6 +112,10 @@
     .contacto-lista li a {
         font-size: 0.9em;
     }
+
+    .contacto-image {
+        width: 250px; /* Ajustar el ancho de las imágenes para tabletas */
+    }
 }
 
 /* Estilos responsivos para móviles */
@@ -130,5 +134,9 @@
 
     .contacto-lista li a {
         font-size: 0.8em;
+    }
+
+    .contacto-image {
+        width: 150px; /* Ajustar el ancho de las imágenes para móviles */
     }
 }
